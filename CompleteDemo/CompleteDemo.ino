@@ -4,7 +4,7 @@
     Link of library : https://github.com/parvaizahmad/Nokia_LCD_Library 
     Usage of library: http://www.youtube.com/parvaizahmadofficial
     Change in Update:
-                        Originaly library was written for the Arduino/AVR boards, In this update I ported the library for the ESP 8266 as well void setup()
+                        Originaly library was written for the Arduino/AVR boards, In this update I ported the library for the ESP 8266 as well as for
                         ESP32. Library is tested with esp8266 but not with esp32, so working with esp32 is nor gurenteed.
 */
 
