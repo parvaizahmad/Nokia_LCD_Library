@@ -1,12 +1,8 @@
 /*
-    This library is the rework of some already written library in russian.
-    Origional aurthor: http://arduino.ru/forum/proekty/khronograf-izmeritel-skorosti-puli-ot-prostogo-k-slozhnomu?page=5#comment-136147
-    Origional Library: https://yadi.sk/d/uwlwBOyijDYYR
-    _____________________________________________________________________________________________________________________________________
-    Updated by      : Parvaiz Ahmad
+    Written by      : Parvaiz Ahmad
     Date            : September 19, 2020
     Link of library : https://github.com/parvaizahmad/Nokia_LCD_Library 
-    Usage of library: http://www.youtube.com/c/ParvaizAhmadOfficial 
+    Usage of library: http://www.youtube.com/parvaizahmadofficial
     Change in Update:
                         Originaly library was written for the Arduino/AVR boards, In this update I ported the library for the ESP 8266 as well void setup()
                         ESP32. Library is tested with esp8266 but not with esp32, so working with esp32 is nor gurenteed.
