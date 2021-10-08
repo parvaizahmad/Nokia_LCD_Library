@@ -140,6 +140,18 @@ void STE2007::print(byte x, byte y, boolean color, long num){
     this->print(x, y, color, ltoa(num, c, 10));
 }
 
+void STE2007::print(byte x, byte y, boolean color, float num){
+     String thisString = String(num);
+    int str_len = thisString.length() + 1; 
+
+    // Prepare the character array (the buffer) 
+    char char_array[str_len];
+    // Copy it over 
+    thisString.toCharArray(char_array, str_len);
+    this->print(x, y, color, char_array);
+}
+
+
 /* This menthod prints the 16*07 string.*/
 
 void STE2007::print_1607(byte x, byte y, boolean color, char *str)
